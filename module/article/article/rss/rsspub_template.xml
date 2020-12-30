@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:admin="http://webns.net/mvcb/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+>
+
+<channel rdf:about="##RDF:About##">
+<title>##RDF:Title##</title>
+<link>##RDF:Link##</link>
+<description>##RDF:Description##</description>
+<dc:language>en-us</dc:language>
+<dc:rights>##DC:Rights##</dc:rights>
+<dc:date>##DC:Date##</dc:date>
+<dc:publisher>##DC:Publisher##</dc:publisher>
+<dc:creator>##DC:Creator##</dc:creator>
+<dc:subject>##DC:Subject##</dc:subject>
+<syn:updatePeriod>##SYN:UpdatePeriod##</syn:updatePeriod>
+<syn:updateFrequency>##SYN:UpdateFrequency##</syn:updateFrequency>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<items>
+ <rdf:Seq>
+  ##RDF:LI##
+ </rdf:Seq>
+</items>
+<image rdf:resource="##RDF:ResourceImage##" />
+<textinput rdf:resource="##RDF:ResourceTextInput##" />
+</channel>
+
+<image rdf:about="##IMAGE:RDFAbout##">
+<title>##IMAGE:Title##</title>
+<url>##IMAGE:URL##</url>
+<link>##IMAGE:Link##</link>
+</image>
+
+##ArticleList##
+
+</rdf:RDF>

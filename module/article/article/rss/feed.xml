@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+ xmlns:admin="http://webns.net/mvcb/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+>
+
+<channel rdf:about="http://kentest.aspnuke.com/test">
+<title>ASP Nuke</title>
+<link>http://kentest.aspnuke.com/test</link>
+<description></description>
+<dc:language>en-us</dc:language>
+<dc:rights>ASP Nuke - Copyright 2004 - All Rights Reserved</dc:rights>
+<dc:date>2004-09-01T09:20:36-08:00</dc:date>
+<dc:publisher>support@aspnuke.com</dc:publisher>
+<dc:creator>Orvado Technologies RSS Generator</dc:creator>
+<dc:subject>ASP Nuke Articles</dc:subject>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://kentest.aspnuke.com/test/module/article/article/article.asp?articleid=2" />
+<rdf:li rdf:resource="http://kentest.aspnuke.com/test/module/article/article/article.asp?articleid=1" />
+
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://kentest.aspnuke.com/test/img/logo.gif" />
+<textinput rdf:resource="" />
+</channel>
+
+<image rdf:about="http://kentest.aspnuke.com/test/img/logo.gif">
+<title>ASP Nuke</title>
+<url>http://kentest.aspnuke.com/test/img/logo.gif</url>
+<link>ASP Nuke</link>
+</image>
+
+<item rdf:about="http://kentest.aspnuke.com/test/module/article/article/article.asp?articleid=2"><title>Farenheit 9/11</title><link>http://kentest.aspnuke.com/test/module/article/article/article.asp?articleid=2</link><description>This movie just came out and I think you should go see it.  It is a very good movie that I think you would like.  What&apos;s this article about, nothing really.</description><dc:creator>Kenneth W Richards</dc:creator><dc:subject>Movie News</dc:subject><dc:date>2004-07-03T21:14:52-08:00</dc:date><slash:section></slash:section><slash:comments></slash:comments><slash:hitparade></slash:hitparade></item>
+<item rdf:about="http://kentest.aspnuke.com/test/module/article/article/article.asp?articleid=1"><title>MySQL Version</title><link>http://kentest.aspnuke.com/test/module/article/article/article.asp?articleid=1</link><description>This is the beginning of the MySQL database version.  Hope that you like it! This is the beginning of the MySQL database version.  Hope that you like it!</description><dc:creator>Kenneth W Richards</dc:creator><dc:subject>Software Releases</dc:subject><dc:date>2004-05-21T23:39:25-08:00</dc:date><slash:section></slash:section><slash:comments></slash:comments><slash:hitparade></slash:hitparade></item>
+
+
+</rdf:RDF>
